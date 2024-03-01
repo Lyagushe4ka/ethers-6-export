@@ -1,7 +1,5 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const ethers_1 = __importDefault(require("ethers"));
-exports.default = ethers_1.default;
+exports.ethers6 = void 0;
+var ethers_1 = require("ethers");
+Object.defineProperty(exports, "ethers6", { enumerable: true, get: function () { return ethers_1.ethers; } });

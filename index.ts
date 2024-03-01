@@ -1,2 +1,1 @@
-import ethers from 'ethers';
-export default ethers;
+export { ethers as ethers6 } from 'ethers';
