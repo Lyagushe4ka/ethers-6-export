@@ -1,1 +1,1 @@
-export { ethers as ethers6 } from 'ethers';
+export * as ethers6 from 'ethers';
